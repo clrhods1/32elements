@@ -1,0 +1,299 @@
+/* CSS RESET ------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Universal styles -------------------*/
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+ }
+
+/* header one ---------------------------*/
+h1 {
+  font-size: 4rem;
+}
+
+h4 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* body ----------------------------*/
+body {
+  font-family: 'Josefin Slab', serif;
+  font-weight: bolder;
+  color: #900000;
+  background-color: #eee5d5;
+}
+
+img {
+  max-width: 100%;
+  height: 50vh;
+}
+
+section.container {
+  margin-top: 2vh;
+}
+
+section.lemonade {
+  line-height: 0;
+  background-image: url(http://fitnessgoals.com/wp-content/uploads/2016/05/giphy-7.gif);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* mobile menu -------------------------*/
+.pure-drawer {
+  padding: 20vh 3%;
+  text-align: left;
+  background-color: #900000;
+}
+
+.pure-pusher-icon {
+  background-color: #900000;
+}
+
+.pure-toggle-label .pure-toggle-icon, .pure-toggle-label .pure-toggle-icon:before, .pure-toggle-label .pure-toggle-icon:after {
+  background-color: #900000;
+}
+
+.pure-toggle-label[data-toggle-label='right'] {
+  right: 5px;
+}
+
+.pure-drawer li {
+  text-align: left;
+}
+
+.pure-drawer nav a {
+  color: #eee5d5;
+}
+
+.pure-drawer a:hover {
+  color: #C9A958;
+}
+
+.pure-pusher {
+  background-color: #eee5d5;
+}
+
+/* Header Background ---------------------------*/
+.starter {
+  background-image: url("../images/elephant.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Header --------------------------------------*/
+header nav {
+  float: right;
+}
+
+header li,  nav, h3 {
+  display: inline;
+  margin: 2vh 3.3vw;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+/* Links --------------------------------------*/
+nav a, .logo {
+  color: #900000;
+}
+
+a:hover {
+  color: #C9A958;
+ }
+
+ li{
+   list-style: none;
+ }
+
+/* heading 2 ---------------------------------*/
+h1, h2, li {
+  text-align: center;
+}
+
+h2.our-name {
+  margin: -2%;
+}
+
+/* Buttons --------------------------------------*/
+.button.button-primary{
+    background-color: #eee5d5;
+    border: 2px solid #900000;
+    color: #900000;
+  }
+
+.button.button-primary:hover{
+  background-color: #900000;
+  border: 0px solid #900000;
+}
+
+/* Logo ----------------------------------------*/
+.logo {
+  font-family: 'Cardo', serif;
+  font-size: 6rem;
+}
+
+ /* Greetings section --------------------------*/
+.parent {
+  position: relative;
+  width: 100%;
+}
+.child {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+.childtext {
+  width: 50%;
+}
+
+.greeting .child {
+  background-image: url("../images/image1913.jpg");
+  background-size: cover;
+}
+.greeting .childtext {
+  min-height: 50vw;
+    padding: 13%;
+}
+
+/* about us ----------------------------------------*/
+.aboutus .child {
+  background-image: url("../images/originalwalk.JPG");
+  background-size: cover;
+}
+.aboutus .childtext {
+    padding:4% 13%;
+}
+
+.child.flipped {
+  right:50vw;
+}
+
+.childtext.flipped {
+  margin-left: 50%;
+}
+
+/* people -----------------------------------*/
+img {
+  height: 55vh;
+}
+
+.hoverpic {
+  height: 25vw;
+  width: 100%;
+  background-position: bottom;
+  color: white;
+  text-align: center;
+  background-size: cover;
+}
+
+.hoverpic h3 {
+  display: none;
+  bottom: 0;
+}
+
+.hoverpic:hover h3 {
+  display: block;
+  font-weight: bold;
+  bottom: auto;
+}
+
+.joelle {
+  background-image: url('../images/jody.jpeg');
+}
+
+.tasha {
+  background-image: url(../images/tasha.jpeg);
+}
+
+.chloe {
+  background-image: url(../images/chloe.jpeg);
+}
+
+.court {
+  background-image: url(../images/court.jpeg);
+}
+
+.kenzie {
+  background-image: url(../images/kenzie.jpeg);
+}
+
+.amanda {
+  background-image: url(../images/amanda.jpeg);
+}
+/* gallery ----------------------------------------*/
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+}
+
+/* contact page ------------------------------------*/
+
+strong a {
+  color: #900000;
+}
+
+strong a:hover {
+  color: #2d110b;
+}
+
+/* footer ------------------------------------------*/
+footer i {
+  color: #eee5d5;
+}
+
+footer {
+  background-color: #2d110b;
+  padding: 1%;
+  text-align: center;
+}
+
+footer div {
+  color: #eee5d5;
+}
+
+/* Responsive stuff */
+.mob-hide {
+  display: none;
+}
+
+/* media query -------------------------------*/
+/* Larger than mobile */
+@media (min-width: 350px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  .mob-hide {
+    display: block;
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
